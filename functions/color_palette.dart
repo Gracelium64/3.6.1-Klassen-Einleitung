@@ -1,5 +1,3 @@
-import 'functions_grace64.dart';
-
 String? ColorPalette(String? userInput) {
   Map<String, String> colorMap = {
     'basic bitch black' : '#111111',
