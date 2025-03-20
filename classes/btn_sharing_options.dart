@@ -1,6 +1,6 @@
 class BtnSharingOptions {
-  String BtnSharingOptionsId;
-  String btnImgUrl;
+  final String BtnSharingOptionsId;
+  final String btnImgUrl;
 
   BtnSharingOptions(this.BtnSharingOptionsId, this.btnImgUrl);
 }

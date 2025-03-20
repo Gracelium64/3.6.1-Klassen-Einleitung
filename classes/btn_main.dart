@@ -1,6 +1,6 @@
 class BtnMain {
-  String mainBtnId;
-  String mainBtnUrl;
+  final String mainBtnId;
+  final String mainBtnUrl;
 
   BtnMain(this.mainBtnId, this.mainBtnUrl);
 }

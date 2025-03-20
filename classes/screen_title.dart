@@ -1,6 +1,6 @@
 class ScreenTitle {
-  String mainTitle;
-  String secondaryTitle;
+  final String mainTitle;
+  final String secondaryTitle;
 
   ScreenTitle(this.mainTitle,
               this.secondaryTitle

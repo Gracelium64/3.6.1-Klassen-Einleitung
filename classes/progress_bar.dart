@@ -1,5 +1,5 @@
 class ProgressBar {
-  double procent;
+  final double procent;
 
   ProgressBar(this.procent);
 }
