@@ -4,7 +4,7 @@ class Task {
   final String taskDesctiption;
   final String? deadlineDate;
   final String? deadlineTime;
-  final int? dayOfWeek;
+  final String? dayOfWeek;
   final bool isDone;
 
   Task(
@@ -20,7 +20,7 @@ class Task {
   @override
   String toString() {
     // TODO: implement toString
-    return '''Catagory: $taskCatagory;  Description: $taskDesctiption;  Done? ${isDone.toString()}
+    return '''TaskId: $taskId; Catagory: $taskCatagory;  Description: $taskDesctiption; Deadline: $deadlineDate $deadlineTime; Day of Week: $dayOfWeek  Done? ${isDone.toString()}
     ''';
   }
 }

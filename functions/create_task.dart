@@ -4,7 +4,7 @@ import '../classes/task.dart';
   return Task(counter, 'Daily', userInputDescription, null, null, null, false);
 }
 
-Task createWeeklyTask(int counter, String userInputDescription, int userInputDay) {
+Task createWeeklyTask(int counter, String userInputDescription, String? userInputDay) {
   return Task(counter, 'Weekly', userInputDescription, null, null, userInputDay, false);
 }
 
